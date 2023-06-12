@@ -1,0 +1,12 @@
+data/
+.ipynb_checkpoints
+models/*
+mlruns/*
+**/mlruns/
+**/mlartifact/
+**/mlartifacts/
+**/output/
+.vscode/
+./DS_Store
+*.db
+*.DS_Store
