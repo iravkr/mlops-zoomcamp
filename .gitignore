@@ -6,7 +6,10 @@ mlruns/*
 **/mlartifact/
 **/mlartifacts/
 **/output/
+**/.prefect/
 .vscode/
 ./DS_Store
 *.db
 *.DS_Store
+*.prefectignore
+**/__pycache__/
