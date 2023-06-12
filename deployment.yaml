@@ -1,13 +1,13 @@
 deployments:
-- name: null
+- name: homework-orchetration-taxi-deploy
   version: null
   tags: []
   description: null
   schedule: {}
   flow_name: null
-  entrypoint: null
+  entrypoint: 03-orchestration/homework/orchestrate.py:main_flow
   parameters: {}
   work_pool:
-    name: null
+    name: mlopsZoomPool
     work_queue_name: null
     job_variables: {}
